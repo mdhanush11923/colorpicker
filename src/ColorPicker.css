@@ -1,0 +1,35 @@
+.color-picker {
+    text-align: center;
+}
+
+.color-picker button {
+    background-color: #35bb04;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+}
+
+.color-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-self: center;
+}
+
+.color-list li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.color-list button {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.selected-color {
+    margin: 20px;
+}
